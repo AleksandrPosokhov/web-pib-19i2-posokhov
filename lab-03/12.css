@@ -1,0 +1,41 @@
+body {
+	background: #c7b39b url(images/background28.jpg);
+	}
+	li {
+		display:inline-block;
+		margin: 0;
+		padding: 15px 50px;
+		list-style-type: none;
+		width: 500px;
+		text-align: center;
+	  
+	}
+	.fig {
+		text-align: center;
+	}
+    a { 
+		text-decoration: none; 
+    }
+	table {
+		border: 1px solid green;
+	 margin: auto;
+	}
+	.x{
+		text-align: center; 
+		font-family: sans-serif; 
+		margin: 40px; 
+		color: #336;
+		
+	}
+	.text{
+		font-family: Pompadur, 'Comic Sans MS', cursive;
+		font-size: 20px;
+		color: #000000;
+		margin: 20px;
+	}
+	.tb	{
+		
+		align = "center";
+		border-color: #000000;
+	}
+	
