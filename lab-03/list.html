@@ -3,29 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Список книг - Библиотека</title> 
-<style>	
-	body {
-		background: #c7b39b url(.gitignore/images/background28.jpg);
-	}
-	li {
-		list-style-type: none;	
-	}
-	.fig {
-		text-align: center;
-	}
-	table {
-		border: 1px solid green;
-	 margin: auto;
-	}
-    a { 
-		text-decoration: none; 
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="12.css">
 </head>
 <body >
 <header>
 
-   <h1 style="text-align: center; font-family: sans-serif; margin: 40px; color: #336">
+   <h1 class = "x">
         Список книг
     </h1>
 <form>
@@ -34,7 +17,7 @@
 </form>
     <nav>
         <h2>
-        <ul style="display: flex; justify-content: space-around">
+        <ul >
             <li><a href="./Html.html">Главная страница</a></li>
             <li><a href="./new 1.html">Страница об авторе</a></li>
             <li><a href = "./list.html">Список книг</a></li>
@@ -42,11 +25,10 @@
 	</h2>
     </nav>
 	<h2>
-	 <p align = "center"> <strong><font size="5" color="Black" face="time">Ниже на сайте представлена таблица,содержащая в себе весь список доступных книг. </font></strong></p>
+	 <p align = "center" class = "text"> Ниже на сайте представлена таблица,содержащая в себе весь список доступных книг. </p>
 	</h2>
 </header>
-  <table border="1">
-	<align = "center">
+  <table border="1" class = "tb">
 	<caption>Таблица списка книг</caption>
 	<tr>
 	<th>Название</th>
